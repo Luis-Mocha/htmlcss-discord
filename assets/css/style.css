@@ -42,7 +42,7 @@ img {
     color: white;
 }
 
-/* HEADER */
+/* -- HEADER -- */
 header {
     background-image: url(../img/jumbo.png);
     background-size: cover;
@@ -96,7 +96,7 @@ header p {
 .header-button2 {
     background-color: black;
 }
-/* MAIN */
+/* -- MAIN -- */
 .sezioni-contenuto {
     display: flex;
     padding: 60px 0;
@@ -148,10 +148,10 @@ main .download-link:hover {
     background-color: rgb(88,101,242);
 }
 
-/* FOOTER */
+/* -- FOOTER -- */
 footer {
     background-color: rgb(35,39,42);
-    padding: 5px 0;
+    padding: 40px 0;
 }
 
 footer nav > * {
@@ -175,8 +175,14 @@ footer section {
 }
 
 .footer-last-row {
-    background-color: aqua;
     padding: 10px 0;
     display: flex;
     justify-content: space-between;
+}
+footer img {
+    width: 15%;
+}
+#registrati-link {
+    background-color: rgb(142,161,225);
+    font-size: smaller;
 }
