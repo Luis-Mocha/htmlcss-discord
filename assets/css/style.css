@@ -222,6 +222,10 @@ footer ul li:first-child {
 
 
 /* Footer ultima fila */
+footer hr {
+    border-color:rgb(114,137,218)
+}
+
 .footer-last-row {
     padding: 10px 0;
     display: flex;
