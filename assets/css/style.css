@@ -35,10 +35,6 @@ img {
     width: 70%;
     margin: auto;
 }
-/* classe per i background delle sezioni grigie*/
-.bg-gray {
-    background-color: rgb(213,211,215);
-}
 
 /* HEADER */
 header {
@@ -79,7 +75,10 @@ header nav {
 .sezioni-contenuto {
     display: flex;
     padding: 60px 0;
-    /* align-items: center; */
+}
+/* le sezioni pare hanno un background grigio */
+main section:nth-child(even) {
+    background-color: rgb(246,246,246);
 }
 
 .img-box {
