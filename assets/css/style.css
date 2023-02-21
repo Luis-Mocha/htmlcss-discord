@@ -77,21 +77,26 @@ header nav {
 
 /* MAIN */
 .sezioni-contenuto {
-    /* height: 500px; */
     display: flex;
-    padding: 10px 0;
+    padding: 60px 0;
     /* align-items: center; */
 }
-.box {
-    /* height: 80%; */
-}
+
 .img-box {
-    background-color: rgb(64,146,255);
-    width: 70%;
+    width: 65%;
 }
 .text-box {
-    background-color: rgb(251,193,207);
-    width: 30%;
+    width: 35%;
+    padding: 30px 0px 0px 20px;
+    
+}
+
+h2 {
+    font-size: 35px;
+}
+p {
+    font-size: large;
+    line-height: 1.5;
 }
 
 /* Altezza diversa per l'ultima sezione */
