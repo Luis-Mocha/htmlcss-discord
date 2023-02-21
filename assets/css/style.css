@@ -44,39 +44,54 @@ img {
 
 /* HEADER */
 header {
-    background-color: rgb(49,97,224);
-    height: 500px;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
 }
 /* Nav Header */
 header nav {
-    height: 15%;
-    /* background-color: rgb(103, 131, 206); */
-    background-color: rgb(214,165,53);
-
+    /* background-color: rgb(214,165,53); */
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 15px 0;
+    font-size: 15px;
 }
 
 .nav-lista-link {
     display: flex;
-    flex-basis: 50%;
+    flex-basis: 60%;
     justify-content: space-around;
-}
-/* Ho colorato l'header solo per differenziarlo visivamente. nel momento in cui si va a dare a tutto l'header un immagine di background non vi è piu bisogno */
-/* Contenuto header */
-#header-contenuto {
-    height: 85%;
-    display: flex;
-    justify-content: center;
     align-items: center;
 }
-.header-box {
-    background-color: violet;
-    height: 80%;
-    width: 50%;
+.login-link {
+    background-color: white;
+    color: black;
 }
 
+/* Contenuto header */
+#header-contenuto {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 50px 0 90px;
+}
+
+header p {
+    margin: 30px 0;
+}
+
+.header-buttons > *{
+    margin: 0 10px;
+}
+.header-button1 {
+    background-color: white;
+    color: black;
+}
+.header-button2 {
+    background-color: black;
+}
 /* MAIN */
 .sezioni-contenuto {
     display: flex;
