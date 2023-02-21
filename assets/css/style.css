@@ -36,6 +36,12 @@ img {
     margin: auto;
 }
 
+.button-style {
+    padding: 8px 15px;
+    border-radius: 20px;
+    color: white;
+}
+
 /* HEADER */
 header {
     background-color: rgb(49,97,224);
@@ -108,11 +114,17 @@ main section:last-of-type {
     width: 70%;
     margin: auto;
     background-image: url(../img/stars.svg);
+    font-size: 20px;
     line-height: 2;
     background-size: contain;
     background-position: center;
+
+    margin-bottom: 15px;
 }
 
+ main .download-link {
+    background-color: rgb(142,161,225);
+}
 
 /* FOOTER */
 footer {
