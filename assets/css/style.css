@@ -98,15 +98,21 @@ p {
     line-height: 1.5;
 }
 
-/* Altezza diversa per l'ultima sezione */
-section:last-of-type .sezioni-contenuto {
-    height: 800px;
+/* Ultima sezione */
+main section:last-of-type {
+    padding: 60px 0;
+    text-align: center;
 }
-.green-box {
-    background-color: green;
-    width: 100%;
-    height: 80%;
+
+#avventura {
+    width: 70%;
+    margin: auto;
+    background-image: url(../img/stars.svg);
+    line-height: 2;
+    background-size: contain;
+    background-position: center;
 }
+
 
 /* FOOTER */
 footer {
